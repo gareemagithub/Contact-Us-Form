@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="form-wrapper">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <div>
+                <label for="fullName">Your Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your name here">
+            </div>
+            <div>
+                <label for="emailAddress">Email Address</label>
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="Enter your email here">
+            </div>
+            <div>
+                <label for="userMessage">Your Message</label>
+                <textarea id="userMessage" name="userMessage" placeholder="Write your message here"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            <div id="submissionStatus" class="hidden-message">Your message has been sent successfully!</div>
+        </form>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
