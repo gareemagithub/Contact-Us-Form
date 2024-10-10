@@ -19,3 +19,8 @@ This project implements a simple "Contact Us" form using HTML, CSS, and JavaScri
 - **HTML**: For structuring the form.
 - **CSS**: For styling the form.
 - **JavaScript**: For form validation and handling user inp
+
+Validation Rules
+- Name field must not be empty.
+- Email must be in a valid format (e.g., example@domain.com).
+- Message field must not be empty.
